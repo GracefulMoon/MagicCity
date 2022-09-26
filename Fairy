@@ -307,7 +307,7 @@ task.wait(5)
 end
 elseif game.PlaceId == 8349889591 then
 repeat wait() until game:IsLoaded()
-task.wait(20) -- Waits for the game remotes to load (This is needed)
+task.wait(40) -- Waits for the game remotes to load (This is needed)
 game.Players.LocalPlayer.PlayerGui.MessageGui.Enabled = false -- Removes the annoying error messages
 _G.a = true 
 while _G.a do
